@@ -1,0 +1,179 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #096a55;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0 40px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #fa7d4b;
+}
+
+.logo {
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 45%;
+  padding-right: 8%;
+}
+
+.logo img {
+  max-width: 100%;
+  height: 115px;
+  border-radius: 75px;
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.active {
+  opacity: 1;
+}
+
+.page-home {
+  text-align: center;
+  padding: 60px;
+  background-color: #f9eafd;
+}
+
+.page-home h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.page-home em {
+  font-style: italic;
+  color: #504f4f;
+}
+
+.page-home p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.page-home ul {
+  list-style: disc;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.page-home li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.home {
+  background: linear-gradient(to right, #50947d, #83daae);
+  border-radius: 0 100px 0 100px;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery img {
+  margin: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.background {
+  background-image: url('https://files.passeidireto.com/b2ba87af-f6b2-4124-917f-21daddf98fcd/bg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.8;
+}
+
+.background h2 {
+  color: #15835e;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.centered-list li {
+  color: #124131;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 26px;
+  font-weight: bold;
+  display: inherit;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #096a55;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #57b394;
+}
+
+footer {
+  background-color: #096a55;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;;
+}
+
+.footer-item img {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-item img:hover {
+  transform: scale(1.2);
+}

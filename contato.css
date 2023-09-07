@@ -1,0 +1,68 @@
+body {
+  background-color: #f9eafd;
+}
+
+h1 {
+  font-family: "Courier New";
+  font-size: 1.8em;
+  color: #ea7121;
+  padding-left: 7%;
+  padding-top: 2%;
+}
+
+.paragraph {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin: 15px 0;
+  color: #817f7f;
+  padding-left: 7%;
+  padding-right: 6%;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8e282;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  background-color: #33c390;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 160px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #4b2f80;
+}
+
+
+
+
+
+
