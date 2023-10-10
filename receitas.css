@@ -29,8 +29,7 @@ p {
 }
 
 .recipe-gallery img {
-  margin: 10px;
-  width: 250px;
+  width: 300px;
   height: 250px;
   border: #ea7121 dashed;
 
