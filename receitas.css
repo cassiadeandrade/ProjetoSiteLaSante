@@ -18,3 +18,32 @@ p {
   padding-left: 7%;
   padding-right: 6%;
 }
+
+.recipe-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+
+.recipe-gallery img {
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  border: #ea7121 dashed;
+
+}
+
+.recipe-gallery figcaption { 
+  background-color: #d4d0d0;
+  color: #67368f;
+  font-size: 1.4em;
+  padding: 2px;
+  text-align: center;
+}
+
+
+
+
