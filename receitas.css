@@ -17,6 +17,7 @@ p {
   color: #817f7f;
   padding-left: 7%;
   padding-right: 6%;
+  position: relative;
 }
 
 .recipe-gallery {
@@ -43,6 +44,47 @@ p {
   text-align: center;
 }
 
+.subtitle {
+  font-family: "NexaSlabBold";
+  color: #6a0966;
+  font-size: 2.2em;
+}
+
+h3 {
+  font-family: "NexaSlabBold";
+  color: #6a0966;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin: 15px 0;
+  padding-left: 7%;
+  padding-right: 6%;
+  padding-top: 3%;
+  position: relative;
+}
+
+aside {
+  position: relative;
+  padding-left: 750px;
+  padding-top: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4b2f80;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 160px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-left: 7%;
+
+}
+
+input[type="submit"]:hover {
+  background-color: #33c390;
+}
 
 
 
