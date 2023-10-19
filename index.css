@@ -5,6 +5,7 @@ body, ul {
 
 header {
   background-color: #096a55;
+  height: 125px;
   padding: 20px 0;
   text-align: center;
 }

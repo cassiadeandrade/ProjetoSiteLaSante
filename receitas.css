@@ -62,12 +62,6 @@ h3 {
   position: relative;
 }
 
-aside {
-  position: relative;
-  padding-left: 750px;
-  padding-top: 10px;
-}
-
 input[type="submit"] {
   background-color: #4b2f80;
   color: #ffffff;
