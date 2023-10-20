@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*
+320px - 480px: dispositivos móveis.
+481px - 768px: iPads, tablets.
+769px - 1024px: telas pequenas, laptops.
+1025px - 1440px: 
+1441px - 2560px:
+*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /*HOME*/
+  header {
+    background-color: #096a55; 
+    padding: 10px; 
+  }
+  nav li {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  nav a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+  }
+  .logo {
+    float: left;
+    margin-top: 6%;
+  }
+  .logo img {
+    height: 80px; 
+  }
+  .slider {
+    height: 200px; 
+  }
+  .home {
+    background: linear-gradient(to right, #50947d, #83daae);
+    border-radius: 10px;
+  }
+  .page-home h1 {
+    
+    font-size: 24px; 
+  }
+  .page-home p {
+    font-size: 18px; 
+  }
+  .centered-list li {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inherit;
+  }
+  
+}
