@@ -1,0 +1,76 @@
+header {
+  background-color: #096a55;
+  padding: 20px 0;
+  height: 130px;
+  text-align: center;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+section {
+  font-family: 'Lato', sans-serif;
+}
+
+.banner {
+  background-image: url(https://i.pinimg.com/564x/93/12/ff/9312ffe2b1d71da8d45ebc79104160a9.jpg);
+  background-position: center;
+  height: 350px;
+}
+
+.title {
+  font-family: "Courier New";
+  font-size: 2.0em;
+  color: #4b2f80;
+  margin-top: 40px;
+}
+
+.card {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-weight: 100;
+  font-size: 1.1em;
+  color: #817f7f;
+  border: #ea7121 dashed;
+}
+
+h1 {
+  font-size: 25px;
+  color: #33c380;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.substance li {
+  list-style-position: inside;
+  line-height: 35px;
+}
+
+ul {
+  margin-bottom: 40px;
+}
+
+input[type="submit"] {
+  background-color: #4b2f80;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  min-width: 160px;
+  border-radius: 35px;
+  font-size: 16px;
+  margin-left: 26.7%;
+  margin-top: 40px;
+
+}
+
+input[type="submit"]:hover {
+  background-color: #33c390;
+}
+

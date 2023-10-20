@@ -47,7 +47,8 @@ p {
 .subtitle {
   font-family: "NexaSlabBold";
   color: #6a0966;
-  font-size: 2.2em;
+  font-size: 2.4em;
+  text-align: center;
 }
 
 h3 {
