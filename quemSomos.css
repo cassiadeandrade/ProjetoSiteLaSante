@@ -4,8 +4,8 @@ body {
 
 header {
   background-color: #096a55;
-  padding: 20px 0;
-  text-align: center;
+  padding: 15px;
+  height: 115px;
 }
 
 h1 {
@@ -21,7 +21,6 @@ h1 {
   margin: 15px 0;
   color: #817f7f;
   padding-left: 6%;
-  padding-right: 6%;
 }
 
 
@@ -30,8 +29,8 @@ section {
 }
 
 #about {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 15px;
+  margin-right: 15px;
   display: block;
 }
 
@@ -86,7 +85,7 @@ section {
   margin-bottom: 30px;
   color: #ffffff;
   overflow: hidden;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat;
   text-align: center;
   -webkit-box-direction: normal;
 }
@@ -107,7 +106,7 @@ section {
 .foto-gallery img {
   margin: 2px;
   width: 200px;
-  height: 230px;
+  height: 250px;
   padding-left: 6%;
 }
 

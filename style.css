@@ -47,6 +47,9 @@
   .page-home p {
     font-size: 18px; 
   }
+  .background h2 {
+    color: rgb(252, 241, 227);
+  }
   .centered-list li {
     color: #ffffff;
     text-align: center;
@@ -55,5 +58,5 @@
     font-weight: bold;
     display: inherit;
   }
-  
+
 }
