@@ -1,21 +1,19 @@
-body, ul {
+body {
   margin: 0;
   padding: 0;
 }
 
 header {
   background-color: #096a55;
-  padding: 20px 0;
-  height: 130px;
-  text-align: center;
+  padding: 15px;
+  height: 115px;
 }
 
 
 nav li {
   display: inline-block;
-  margin: 0 15px;
+  margin-top: 30px;
   padding: 0 40px;
-  text-align: center;
 }
 
 nav a {
@@ -30,10 +28,10 @@ nav a:hover {
 }
 
 .logo {
-  text-align: left;
+  float: left;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 45%;
+  padding-left: 20%;
   padding-right: 8%;
 }
 
