@@ -3,14 +3,121 @@
   padding: 0;
 }
 /*
-320px - 480px: dispositivos móveis.
-481px - 768px: iPads, tablets.
+320px - 500px: dispositivos móveis.
+501px - 768px: iPads, tablets.
 769px - 1024px: telas pequenas, laptops.
 1025px - 1440px: 
 1441px - 2560px:
 */
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  /*HOME*/
+  header {
+    padding: 12px;
+  }
+  nav li {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .logo {
+    float: left;
+  }
+  .slider {
+    height: 200px; 
+  }
+  .home {
+    border-radius: 10px;
+  }
+  .page-home h1 {
+    font-size: 24px; 
+  }
+  .page-home p {
+    font-size: 16px; 
+  }
+  .gallery {
+    text-align: center;
+  }
+  
+  .gallery img {
+    margin: 10px;
+    width: 150px;
+    height: 200px;
+  }
+  .centered-list li {
+    color: #000000;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inherit;
+  }
+  /*Quem somos*/
+  .foto-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    font-size: 12px;
+    text-align: center;  
+  }
+  
+  .foto-gallery img {
+    margin: 2px;
+    max-width: 84px;
+    max-height: 150px;
+  }
+  #about-institucional {
+    max-width: 120px;
+    max-height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    text-align: center;
+  }
+  /*RECEITAS*/
+  .recipe-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .recipe-gallery img {
+    border: #ea7121 dashed;
+    margin: 2px;
+    max-width: 150px;
+    max-height: 120px;
+    
+  }
+  .banner {
+    background-position: center;
+    max-height: 200px;  
+  }
+  .title {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .card {
+    max-width: 300px;
+    max-height: 900px;
+    padding: 10px;
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  }
+  html {
+    font-size: 0.9rem;
+  }
+  /*CONTATO*/
+form {
+  width: 300px;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
   /*HOME*/
   
   header {
@@ -46,41 +153,92 @@
     font-size: 24px; 
   }
   .page-home p {
-    font-size: 18px; 
+    font-size: 16px; 
+  }
+  
+  .gallery {
+    text-align: center;
+  }
+  
+  .gallery img {
+    margin: 5px;
+    width: 90px;
+    height: 150px;
   }
   .background h2 {
-    color: rgb(252, 241, 227);
+    font-size: 25px;
   }
   .centered-list li {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 25px;
     font-size: 16px;
     font-weight: bold;
     display: inherit;
   }
   /*Quem somos*/
   .foto-gallery {
-    align-items: baseline;
-       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    font-size: 9px;
+    text-align: center;  
   }
   
   .foto-gallery img {
     margin: 2px;
-    width: 30%;
-    max-width: 120px;
-    height: auto;
+    max-width: 90px;
+    max-height: 100px;
   }
   #about-institucional {
-    position: center;
-    min-height: 1px;
-    padding: 10px; 
+    max-width: 100px;
+    max-height: 700px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+  }
+  /*RECEITAS*/
+  .recipe-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    font-size: 9px;
+    text-align: center;
+  }
+  
+  .recipe-gallery img {
+    border: #ea7121 dashed;
+    margin: 2px;
+    max-width: 100px;
+    max-height: 70px;
+    
+  }
+  .banner {
+    background-position: center;
+    max-height: 200px;  
+  }
+  .title {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .card {
+    max-width: 300px;
+    max-height: 900px;
+    padding: 10px;
+
+
+  }
+  html {
+    font-size: 0.8rem;
   }
 
-  
+/*CONTATO*/
+form {
+  width: 250px;
+}
+ 
 }
