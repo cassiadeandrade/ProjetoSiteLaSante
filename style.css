@@ -12,6 +12,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   /*HOME*/
+  
   header {
     background-color: #096a55; 
     padding: 10px; 
@@ -58,5 +59,28 @@
     font-weight: bold;
     display: inherit;
   }
+  /*Quem somos*/
+  .foto-gallery {
+    align-items: baseline;
+       
+  }
+  
+  .foto-gallery img {
+    margin: 2px;
+    width: 30%;
+    max-width: 120px;
+    height: auto;
+  }
+  #about-institucional {
+    position: center;
+    min-height: 1px;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+  }
 
+  
 }

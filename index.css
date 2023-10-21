@@ -131,9 +131,9 @@ nav a:hover {
 
 
 .centered-list li {
-  color: #124131;
+  color: #000000;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 25px;
   font-size: 26px;
   font-weight: bold;
   display: inherit;
