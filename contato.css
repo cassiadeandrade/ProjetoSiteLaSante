@@ -20,7 +20,7 @@ h1 {
 }
 
 form {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 60px;
   border: 1px solid #ccc;
@@ -50,11 +50,12 @@ input[type="submit"] {
   color: #ffffff;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
-  min-width: 160px;
+  min-width: 100px;
   border-radius: 10px;
   font-size: 16px;
+  float: right;
 }
 
 input[type="submit"]:hover {
