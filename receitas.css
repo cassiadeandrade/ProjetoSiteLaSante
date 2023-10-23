@@ -10,7 +10,7 @@ h1 {
   padding-top: 2%;
 }
 
-p {
+.paragraph {
   font-size: 1.2em;
   line-height: 1.4em;
   margin: 15px 0;
@@ -45,6 +45,11 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.link a {
+  font-weight: bold;
+  color: #32f3f3;
 }
 
 
